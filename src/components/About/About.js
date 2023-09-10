@@ -76,14 +76,15 @@ export default function About() {
           </div>
           <div className="col-12 col-lg-7">
             <p className="m-0">
-              Hey there, I'm Brandon Christopher, a student at Singapore Management University, on a journey towards a completing a Bachelor's Degree in Information Systems.
-              When I'm not on a plane on the way out of Singapore, you'll either find me at the iron temple aka the gym or diving into code in my blackout room.
-              I thrive on crafting projects that streamline everyday challenges with a touch of coding magic, sometimes through school projects or
-              my free time. My goal?
+              Hey there, I'm Brandon, a student at Singapore Management University pursuing a Bachelor's Degree in Information Systems. I love to travel, code and gym and ocassionally try out new things.
+              I was really never good at anything when I was young but the first time I wrote code, I knew that I finally found something that I enjoy and possibly can be good at. I love to code because it allows me to create things that can help people 
+              and make their lives easier. I am a firm believer that technology can be used to make the world a better place and I hope to be able to contribute to that in the future.
+
+
             </p>
             <p className='my-4'>
-              To wander the world, all while being a Software Engineer coding out projects that makes life a little less harder than it already is. Besides being a coding enthusiast,
-              I've got hands-on experience from internships in both full-stack development and data/product analytics. Learn more about my journey below.
+            My end goal would be to see the world and all the wanders that it has to offer. Of course while being a Software Engineer coding out projects that makes life a little less harder than it already is. Besides being a coding enthusiast,
+            I've got hands-on experience from internships in both full-stack development and data/product analytics. Learn more about my journey below. 
             </p>
             <div className="row text-nowrap">
             </div>

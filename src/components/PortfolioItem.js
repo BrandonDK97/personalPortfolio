@@ -32,7 +32,7 @@ const PortfolioItem = ({ title, subtitle, img, description, icons, githubLink, w
         <div style={cardStyle}>
             <h1 className="app-title" style={titleStyle}>{title}</h1>
             <p className="app-description">{subtitle}</p>
-            <img className="app-image" src={"/images/projects/" + img + ".jpg"} alt="App Screenshot" />
+            <img width={"500px"} height={"300"} className="app-image" src={ img } alt="App Screenshot" />
             <p className="app-paragraph">{description}</p>
             <div className='tech-stack'>
                 <IconList icons={icons} />

@@ -5,6 +5,7 @@ import SliimHead from "../src/layouts/SliimHead";
 import "../styles/globals.css";
 import "../node_modules/swiper/swiper.min.css"
 
+
 function MyApp({ Component, pageProps }) {
   const [loaded, setLoaded] = useState(true);
   useEffect(() => {
@@ -15,6 +16,10 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <State>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
       <SliimHead />
       <PreLoader />
       {!loaded && <Component {...pageProps} />}
